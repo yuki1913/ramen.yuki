@@ -1,0 +1,80 @@
+@media screen and (max-width: 1240px) and (min-width: 1000px) {
+    .body{
+        font-size: 93%;
+    }
+    .ramen-top img{
+        width: 34em;
+    }
+    header{
+        margin-left: 15rem;
+    }
+    .hikyu-map{
+        width: 30rem;
+    }
+    .mutsuki-map{
+        width: 28rem;
+    }
+    .sigeta-map{
+        width: 26rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 520px) {
+    #menu-group{
+        display: none;
+    }
+    .about{
+        display: block;
+        margin-top: 2rem;
+    }
+    .hikyu-flex{
+        display: block;
+    }
+    .ramen-top img{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+   .map{
+    width: 180%;
+    display: block;
+    position: relative;
+   }
+}
+
+@media screen and (max-width: 520px) {
+    .body{
+        font-size: 80%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 22.4px;
+    }
+    h4{
+        font-size: 15.2px;
+    }
+    .about{
+        display: block;
+    }
+    .ramen-top img{
+        width: 96vw;
+    }
+    .osusume-sentence-all{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    #menu-group{
+        display: none;
+    }
+    .hikyu-flex{
+        display: block;
+    }
+    .map{
+        width: 100%;
+        display: block;
+        position: relative;
+       }
+}
