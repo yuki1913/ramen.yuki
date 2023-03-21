@@ -20,7 +20,7 @@
 
 }
 
-@media screen and (max-width: 1000px) and (min-width: 520px) {
+@media screen and (max-width: 1000px) and (min-width: 580px) {
     #menu-group{
         display: none;
     }
@@ -43,9 +43,10 @@
    }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
     .body{
         font-size: 80%;
+         font-family: 'Noto Serif JP', serif;
     }
     h2{
         font-size: 30px;
